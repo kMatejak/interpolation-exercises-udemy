@@ -36,4 +36,9 @@ export class AppComponent {
   divider() {
     return 3;
   }
+
+  floorDivide(a: number) {
+    const c = this.divider();
+    return Math.floor(a / c);
+  }
 }
